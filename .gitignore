@@ -9,3 +9,4 @@
 !*.cpp
 !*/**/*.cpp
 !*/**/*.md
+!update_unsolved_links.py

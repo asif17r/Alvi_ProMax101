@@ -10,6 +10,13 @@ This repository hosts C++ solutions by Alvi for a variety of programming problem
 - Well-commented C++ solutions for each problem.
 - Problem statements and sample test cases included at the top of each file.
 - A clear folder structure for easy navigation and reference.
+
+## Unsolved Problems
+The following problems are in the `Unsolved` folder. Alvi, try to solve these soon!
+
+- [Matrix_input_output.cpp](Unsolved/Matrix_input_output.cpp)
+- [Sum_of_row.cpp](Unsolved/Sum_of_row.cpp)
+- [Sum_of_row_col.cpp](Unsolved/Sum_of_row_col.cpp)
 ---
 
 Happy coding!
