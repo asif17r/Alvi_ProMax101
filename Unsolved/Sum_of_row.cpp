@@ -70,3 +70,39 @@ Your task:
     -15
     0
 */
+
+
+
+//-------------------------------------------------------------------//
+// I DIDNT DO ALL THE SAMPLES
+#include <bits/stdc++.h>
+
+int main() {
+    freopen("input.txt", "r", stdin);
+    int n, m;
+    int d = 0;
+
+    std::cin >> n >> m;
+    int arr[n][m];
+    for (int i = 0;i < n;i++) {
+        for (int j = 0;j < m;j++) {
+            std::cin >> arr[i][j];
+        }
+
+    }
+    std::cout << "Row sums: " << std::endl;
+    for (int i = 0;i < n;i++) {
+
+        for (int j = 0;j < m;j++) {
+            d += arr[i][j];
+
+
+        }
+
+        std::cout << d << std::endl;
+        d = 0;
+
+    }
+
+
+}
