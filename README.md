@@ -14,11 +14,10 @@ This repository hosts C++ solutions by Alvi for a variety of programming problem
 ## Unsolved Problems
 The following problems are in the `Unsolved` folder. Alvi, try to solve these soon!
 
-- [Easy_sum_of_row_col.cpp](Unsolved/Easy_sum_of_row_col.cpp)
-- [Number_pattern.cpp](Unsolved/Number_pattern.cpp)
+- [Diamond_pattern.cpp](Unsolved/Diamond_pattern.cpp)
+- [Easy_box_pattern.cpp](Unsolved/Easy_box_pattern.cpp)
+- [Number_frame.cpp](Unsolved/Number_frame.cpp)
 - [Star_pyramid.cpp](Unsolved/Star_pyramid.cpp)
-- [Star_triangle.cpp](Unsolved/Star_triangle.cpp)
-- [Sum_of_row_col.cpp](Unsolved/Sum_of_row_col.cpp)
 ---
 
 Happy coding!
