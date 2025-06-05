@@ -97,7 +97,7 @@ Your task:
     90
     0
 */
-
+// WHOS CODE IS THIS 👇
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -129,3 +129,43 @@ int main() {
     }
     return 0;
 }
+
+// MY CODE
+#include <bits/stdc++.h>
+
+int main() {
+    freopen("input.txt", "r", stdin);
+    int n;
+    int m;
+    int d = 0;
+    int k = 0;
+    std::cin >> n >> m;
+    int arr[n][m];
+    for (int i = 0;i < n;i++) {
+        for (int j = 0;j < m;j++) {
+            std::cin >> arr[i][j];
+        }
+    }
+    std::cout << "Row sums: " << std::endl;
+    for (int i = 0;i < n;i++) {
+        for (int j = 0;j < m;j++) {
+            d += arr[i][j];
+
+
+        }
+        std::cout << d << std::endl;
+        d = 0;
+    }
+    d = 0;
+    std::cout << "Column sums:" << std::endl;
+    for (int i = 0;i < m;i++) {
+        for (int j = 0;j < n;j++) {
+            d += arr[k][i];
+            k += 1;
+
+        }
+        std::cout << d << std::endl;
+        d = 0;
+        k = 0;
+
+    }
