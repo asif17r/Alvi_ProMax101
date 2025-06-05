@@ -114,3 +114,44 @@ Column sums:
 15
 */
 // Write your code below for each sample by hardcoding the matrix.
+
+#include <bits/stdc++.h>
+
+int main() {
+    freopen("input.txt", "r", stdin);
+    const int n = 5;
+    const int m = 5;
+    int d = 0;
+    int k = 0;
+
+    int arr[n][m];
+    for (int i = 0;i < n;i++) {
+        for (int j = 0;j < m;j++) {
+            std::cin >> arr[i][j];
+        }
+    }
+    std::cout << "Row sums: " << std::endl;
+    for (int i = 0;i < n;i++) {
+        for (int j = 0;j < m;j++) {
+            d += arr[i][j];
+
+
+        }
+        std::cout << d << std::endl;
+        d = 0;
+    }
+    d = 0;
+    std::cout << "Column sums:" << std::endl;
+    for (int i = 0;i < n;i++) {
+        for (int j = 0;j < m;j++) {
+            d += arr[k][i];
+            k += 1;
+        }
+        std::cout << d << std::endl;
+        d = 0;
+        k = 0;
+
+    }
+
+
+}
