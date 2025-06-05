@@ -19,3 +19,18 @@ Output 2:
 * * * * *
 */
 // Write your code below
+#include <bits/stdc++.h>
+
+int main() {
+    freopen("input.txt", "r", stdin);
+    int t;
+    std::cin >> t;
+    for (int i = 1;i <= t;i++) {
+        for (int j = 1;j <= i;j++) {
+            std::cout << "* ";
+        }
+        std::cout << std::endl;
+    }
+
+
+}
