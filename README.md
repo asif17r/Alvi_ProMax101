@@ -17,7 +17,6 @@ The following problems are in the `Unsolved` folder. Alvi, try to solve these so
 - [Diamond_pattern.cpp](Unsolved/Diamond_pattern.cpp)
 - [Easy_box_pattern.cpp](Unsolved/Easy_box_pattern.cpp)
 - [Number_frame.cpp](Unsolved/Number_frame.cpp)
-- [Star_pyramid.cpp](Unsolved/Star_pyramid.cpp)
 ---
 
 Happy coding!

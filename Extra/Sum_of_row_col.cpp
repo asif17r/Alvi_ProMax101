@@ -97,39 +97,6 @@ Your task:
     90
     0
 */
-// WHOS CODE IS THIS 👇
-#include <iostream>
-#include <vector>
-using namespace std;
-
-int main() {
-    int n, m;
-    cin >> n >> m;
-    vector<vector<int>> grid(n, vector<int>(m));
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            cin >> grid[i][j];
-        }
-    }
-    cout << "Row sums:" << endl;
-    for (int i = 0; i < n; ++i) {
-        int row_sum = 0;
-        for (int j = 0; j < m; ++j) {
-            row_sum += grid[i][j];
-        }
-        cout << row_sum << endl;
-    }
-    cout << "Column sums:" << endl;
-    for (int j = 0; j < m; ++j) {
-        int col_sum = 0;
-        for (int i = 0; i < n; ++i) {
-            col_sum += grid[i][j];
-        }
-        cout << col_sum << endl;
-    }
-    return 0;
-}
-
 // MY CODE
 #include <bits/stdc++.h>
 

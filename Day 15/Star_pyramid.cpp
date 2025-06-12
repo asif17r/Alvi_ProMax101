@@ -49,10 +49,9 @@ Output 5:
 #include <bits/stdc++.h>
 
 int main() {
-#ifdef ALVI
-
-    freopen("input.txt", "r", stdin);
-#endif
+    #ifdef ALVI
+        freopen("input.txt", "r", stdin);
+    #endif
     int t;
     std::cin >> t;
     for (int i = 0;i < t;i++) {
