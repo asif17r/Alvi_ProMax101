@@ -46,3 +46,23 @@ Output 5:
 
 */
 // Write your code below
+#include <bits/stdc++.h>
+
+int main() {
+#ifdef ALVI
+
+    freopen("input.txt", "r", stdin);
+#endif
+    int t;
+    std::cin >> t;
+    for (int i = 0;i < t;i++) {
+        for (int j = 0;j < t-i-1;j++) {
+            printf(" ");
+        }
+        for (int j = 0;j < i*2+1;j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
