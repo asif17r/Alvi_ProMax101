@@ -42,3 +42,41 @@ Output 5:
 ------
 */
 // Write your code below
+#include <bits/stdc++.h>
+
+int main() {
+#ifdef ALVI
+
+    freopen("input.txt", "r", stdin);
+#endif
+
+    long long n, m;
+    std::cin >> n >> m;
+    n -= 2;
+    for (int i = 0;i < m;i++) {
+        printf("-");
+
+    }
+    printf("\n");
+    for (int i = 1;i < n*2+1;i++) {
+        printf("|");
+        for (int j = 0;j< n+1;j++) {
+            printf(" ");
+        }
+        if (i%2==0) {
+            printf("\n");
+        }
+    }
+    // printf("\n");
+    for (int i = 0;i < m;i++) {
+        printf("-");
+
+    }
+
+
+
+
+
+
+}
+
