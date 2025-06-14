@@ -14,9 +14,14 @@ This repository hosts C++ solutions by Alvi for a variety of programming problem
 ## Unsolved Problems
 The following problems are in the `Unsolved` folder. Alvi, try to solve these soon!
 
+- [Border_sum.cpp](Unsolved/Border_sum.cpp)
+- [Diagonal_sum.cpp](Unsolved/Diagonal_sum.cpp)
 - [Diamond_pattern.cpp](Unsolved/Diamond_pattern.cpp)
-- [Easy_box_pattern.cpp](Unsolved/Easy_box_pattern.cpp)
+- [Easy_column_sum.cpp](Unsolved/Easy_column_sum.cpp)
+- [Easy_fibonacci.cpp](Unsolved/Easy_fibonacci.cpp)
+- [Easy_prime_check.cpp](Unsolved/Easy_prime_check.cpp)
 - [Number_frame.cpp](Unsolved/Number_frame.cpp)
+- [Transpose_matrix.cpp](Unsolved/Transpose_matrix.cpp)
 ---
 
 Happy coding!
