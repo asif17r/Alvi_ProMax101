@@ -55,3 +55,25 @@ Sample Output 5
 7 1
 8 1
 */
+
+#include <bits/stdc++.h>
+
+using namespace std;
+using pairlist = vector<pair<int, string>>;
+using ll = long long;
+using ld = long double;
+int main(){
+    multiset<ll> ms;
+    set<ll> s;
+    ll n,a;
+    cin >> n;
+    for (int i = 0;i < n;i++){
+        cin >> a; 
+        ms.insert(a);
+        s.insert(a);
+    }
+    for (int i : s){
+        cout << i << " " << ms.count(i) << endl;
+    }
+
+}
