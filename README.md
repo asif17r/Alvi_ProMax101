@@ -1,5 +1,7 @@
 # Alvi_ProMax101 Solutions Repository
 
+✨ **Total Problems Solved till July 06, 2025: 53** ✨
+
 This repository hosts C++ solutions by Alvi for a variety of programming problems. Each solution is organized by day and problem, and most files include both the problem statement and sample input/output for clarity.
 
 ## Structure
@@ -20,7 +22,9 @@ The following problems are in the `Unsolved` folder. Alvi, try to solve these so
 - [Easy_column_sum.cpp](Unsolved/Easy_column_sum.cpp)
 - [Easy_fibonacci.cpp](Unsolved/Easy_fibonacci.cpp)
 - [Easy_prime_check.cpp](Unsolved/Easy_prime_check.cpp)
+- [Easy_row_product.cpp](Unsolved/Easy_row_product.cpp)
 - [Number_frame.cpp](Unsolved/Number_frame.cpp)
+- [Reverse_integer.cpp](Unsolved/Reverse_integer.cpp)
 - [Transpose_matrix.cpp](Unsolved/Transpose_matrix.cpp)
 ---
 
