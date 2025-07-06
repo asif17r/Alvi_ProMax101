@@ -1,7 +1,5 @@
 # Alvi_ProMax101 Solutions Repository
 
-✨ **Total Problems Solved till July 06, 2025: 53** ✨
-
 This repository hosts C++ solutions by Alvi for a variety of programming problems. Each solution is organized by day and problem, and most files include both the problem statement and sample input/output for clarity.
 
 ## Structure
