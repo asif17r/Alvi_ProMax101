@@ -43,3 +43,37 @@ codeforces
 Sample Output 5
 not found
 */
+
+// DONE BRO
+
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+using pairlist = vector<pair<long long, string>>;
+using ld = long double;
+
+int main(){
+    char c;
+    string x;
+    bool ans = false;
+    cin >> c >> x;
+    for (int i = 0;i < x.length();i++){
+        if (c == x[i]){
+            ans = true;
+            break;
+        }
+        
+
+    }
+    if (ans){
+        cout << "found" << endl;
+    }
+    else {
+        cout << "not found" << endl;
+    }
+
+   
+}
+
+https://techalvi.github.io/01010011-01000001-01010110-01000101-00100000-01001101-01000101/
